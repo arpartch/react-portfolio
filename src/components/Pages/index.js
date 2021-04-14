@@ -6,6 +6,9 @@ import Projects from './Projects';
 import Work from './Work';
 import Education from './Education';
 
+import <PageComponentName> from './<PageComponentName>';
+export default <PageComponentName>;
+
 const Pages = ({ user }) => {
   return (
     <Router>
